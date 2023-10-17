@@ -7,4 +7,10 @@ public class Question {
         this.questionId=questionId;
         this.trueAnswer=trueAnswer;
     }
+    public boolean isTrueAnswer(){
+        return trueAnswer;
+    }
+    public int getQuestionId(){
+        return questionId;
+    }
 }
