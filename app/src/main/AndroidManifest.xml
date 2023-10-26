@@ -9,6 +9,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android1">
         <activity
+            android:name=".PromptActivity"
+            android:exported="false"
+            android:label="@string/title_activity_prompt"
+            android:theme="@style/Theme.Android1" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
